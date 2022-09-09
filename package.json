@@ -1,0 +1,32 @@
+{
+  "name": "nextproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001390",
+    "isomorphic-fetch": "^3.0.0",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "nanoid": "^3.3.4",
+    "next": "^12.2.5",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "scheduler": "^0.23.0",
+    "source-map-js": "^1.0.2",
+    "styled-jsx": "^5.0.4",
+    "tslib": "^2.4.0",
+    "use-sync-external-store": "^1.2.0"
+  },
+  "keywords": [],
+  "description": ""
+}
