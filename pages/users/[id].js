@@ -32,7 +32,7 @@ const User = ({ user }) => {
 };
 
 User.getInitialProps = async (ctx) => {
-   console.log(ctx.query.id)
+  console.log(ctx.query.id);
   const res = await fetch(`https://reqres.in/api/users/${ctx.query.id}`);
   const resJSON = await res.json();
   console.log(resJSON);
