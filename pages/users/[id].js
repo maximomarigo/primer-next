@@ -15,7 +15,7 @@ const User = ({ user }) => {
         <div className="col-md-6 offset-md-3">
           <div className="card">
             <div className="card-header text-center">
-              <img 
+              <img
                 src={user.avatar}
                 alt={user.first_name + " " + user.last_name}
                 style={{ borderRadius: "50%" }}
