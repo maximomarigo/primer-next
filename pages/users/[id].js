@@ -1,6 +1,9 @@
 import { useRouter } from "next/router";
 import fetch from "isomorphic-fetch";
 import Container from "/components/cointeiner";
+import Link from "next/Link"
+
+
 
 const User = ({ user }) => {
   const router = useRouter();
@@ -12,7 +15,7 @@ const User = ({ user }) => {
         <div className="col-md-6 offset-md-3">
           <div className="card">
             <div className="card-header text-center">
-              <img
+              <img 
                 src={user.avatar}
                 alt={user.first_name + " " + user.last_name}
                 style={{ borderRadius: "50%" }}
@@ -26,9 +29,22 @@ const User = ({ user }) => {
             </div>
           </div>
         </div>
+       
+        
+       
       </div>
+      <div>
+
+      <Link href="/">
+    <button class="back-to-top hidden">Back To About</button></Link>
+      </div>
+ 
+
     </Container>
-  );
+    
+ 
+
+);
 };
 
 User.getInitialProps = async (ctx) => {

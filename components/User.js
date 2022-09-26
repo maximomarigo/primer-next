@@ -14,7 +14,7 @@ const Users = (props) => {
               {user.first_name} {user.last_name}{" "}
             </p>
             <p>EMAIL:{user.email}</p>
-            <img src={user.avatar} alt="" style={{ borderRadius: "50%" }} />
+            <img src={user.avatar} alt="" style={{ borderRadius: "50%" }}  />
           </li>
         ))}
       </ul>

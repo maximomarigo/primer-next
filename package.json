@@ -28,5 +28,9 @@
     "use-sync-external-store": "^1.2.0"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
 }
